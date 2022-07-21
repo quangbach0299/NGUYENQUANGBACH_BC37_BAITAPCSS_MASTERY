@@ -1,0 +1,357 @@
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+
+}
+
+.clear {
+    clear: both;
+}
+
+html,
+body {
+    font-size: 16;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    width: 75%;
+    margin: auto;
+    padding: 25px 0px;
+}
+
+.head__icon i {
+    padding: 25px;
+    border-radius: 50px;
+    background-color: #002146;
+    color: #f8c503;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.head__icon p {
+    display: inline;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.navbar {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.navbar a {
+    margin: 15px;
+    text-decoration: none;
+    color: #002146;
+    font-weight: 550;
+    font-size: 36px;
+
+}
+
+.carousel {
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+
+
+.intro {
+    width: 80%;
+    margin: auto;
+    padding: 60px;
+}
+
+.intro__left,
+.intro__right {
+    float: left;
+    width: 50%;
+    padding: 20px 0px;
+    color: #002146;
+}
+
+
+.intro__left {
+    padding-right: 50px;
+}
+
+.intro__left h1 {
+    margin: 0;
+}
+
+
+.intro__left button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+    background-color: #fdc800;
+    color: #002146;
+    border-radius: 5px;
+    border: none;
+}
+
+.intro__right img {
+    width: 100%;
+}
+
+/* NUMBER */
+.number {
+    background-color: #f6f6f6;
+    padding: 50px;
+}
+
+.number__content {
+    width: 80%;
+    margin: auto;
+
+}
+
+.number__item {
+    float: left;
+    width: 25%;
+}
+
+.number__smallitem {
+    width: 70%;
+    margin: auto;
+}
+
+.number__infor__left {
+    float: left;
+    width: 30%;
+}
+
+.number__infor__right {
+    float: left;
+    width: 70%;
+    line-height: 25px;
+}
+
+.number__infor__left p {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+.number__infor__right p {
+    margin: 0;
+    padding-right: 10px;
+    font-weight: 700px;
+}
+
+/* SERVICES */
+
+.service__row {
+    width: 80%;
+    margin: auto;
+    padding: 80px;
+}
+
+.service__item {
+    float: left;
+    width: 25%;
+    padding: 15px 15px;
+
+}
+
+.service__icon {
+    background-color: #002146;
+    padding: 30px 60px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.service__icon i {
+    font-size: 40px;
+}
+
+/* INFORMATION */
+.information {
+    background-color: #f6f6f6;
+    padding: 100px 0px;
+}
+
+.information__content {
+    width: 80%;
+    margin: auto;
+}
+
+.information__cover {
+    background-color: white;
+}
+
+.information__left,
+.information__right {
+    float: left;
+    width: 50%
+}
+
+.information__left {
+    padding-right: 30px;
+}
+
+.information__img {
+    float: left;
+    width: 35%;
+    padding: 20px;
+}
+
+.information__img img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.information__text {
+    float: left;
+    width: 65%;
+}
+
+.information__top {
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+}
+
+.information__bottom {
+    background-color: white;
+    padding-bottom: 25px;
+}
+
+.information__text h2 {
+    opacity: 0.5;
+}
+
+/* ------------------------------------ */
+.viewAll {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.viewAll button {
+    padding: 20px 40px;
+    background-color: #f8c503;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* --------------------------------- */
+.information__right {
+    padding-left: 30px;
+    padding-right: 100px;
+}
+
+
+
+.calender {
+    float: left;
+    width: 30%;
+}
+
+.content {
+    float: left;
+    width: 70%;
+
+}
+
+.calender {
+    text-align: center;
+}
+
+
+
+.card {
+    width: 80%;
+    margin: auto;
+    padding: 10px 15px;
+}
+
+.card__top {
+    background-color: #f9c801;
+    padding: 1px 0px;
+    margin-top: 10px;
+    border-radius: 8px 8px 0 0;
+
+}
+
+.card__top p:first-child {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.card__top p:nth-child(2) {
+    margin: 0px 0px 10px;
+    font-weight: 600;
+}
+
+.card__bottom {
+    background-color: #0f2146;
+    padding: 5px 0px;
+    border-radius: 0 0 8px 8px;
+    color: white;
+    font-weight: 600;
+}
+
+
+/* FOOTER */
+.footer{
+    background-color: #002146;
+    padding: 40px; 
+}
+
+.footer__main {
+    width: 70%;
+    margin: auto;
+    font-weight: 500;
+}
+
+.footer__item {
+    float: left;
+    width: 33.33%;
+    
+}
+
+.footer__item ul{
+    padding: 0;
+    line-height: 30px;
+}
+.footer__item li{
+    list-style: none;
+
+  
+} 
+.footer__item a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer__item h2{
+    color: white;
+}
+
+.footer__item  ul  li p{
+    display: inline;
+    color: white;
+}
+
+.footer i{
+    color: #fbc602;
+    margin-right: 10px;
+}
+
+.designer
+{
+    color: white;
+    font-size: 17px
+    ;
+}
